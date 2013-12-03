@@ -32,5 +32,9 @@ REFERENCES
  * https://tex.stackexchange.com/questions/5571/reduce-bibliography-to-one-line
  * http://www.ctex.org/documents/packages/table/paralist.pdf
 
+And especially crucial for understanding the borderline-insane RPN choice in bst:
+
+ * http://tug.ctan.org/info/bibtex/tamethebeast/ttb_en.pdf
+
 
 .. _bib_macros.tex: bib_macros.tex
