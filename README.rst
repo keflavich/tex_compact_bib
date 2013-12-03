@@ -31,3 +31,6 @@ REFERENCES
 
  * https://tex.stackexchange.com/questions/5571/reduce-bibliography-to-one-line
  * http://www.ctex.org/documents/packages/table/paralist.pdf
+
+
+.. _bib_macros.tex: bib_macros.tex
