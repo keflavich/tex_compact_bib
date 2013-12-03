@@ -399,35 +399,37 @@ FUNCTION {format.names}
   numnames 'namesleft :=
   numnames #3 >
     { s #1 "\textbullet {vv~}{ll}{, jj}{, f.}" format.name$ " {et~al.}" * }
-    { { namesleft #0 > }
-      { s nameptr "\textbullet {vv~}{ll}{, jj}{, f.}" format.name$
-      't :=
-        nameptr #1 >
-          { namesleft #1 >
-              { ", " * t * }
-              { numnames #2 >
-                  { "," * }
-                  'skip$
-                if$
-              s nameptr "{ll}" format.name$ duplicate$ "others" =
-                { 't := }
-                { pop$ }
-              if$
-              t "others" =
-                {
-                  " {et~al.}" *
+    { "\textbullet" 
+          { namesleft #0 > }
+          { s nameptr "{vv~}{ll}{, jj}{, f.}" format.name$
+          't :=
+            nameptr #1 >
+              { namesleft #1 >
+                  { ", " * t * }
+                  { numnames #2 >
+                      { "," * }
+                      'skip$
+                    if$
+                  s nameptr "{ll}" format.name$ duplicate$ "others" =
+                    { 't := }
+                    { pop$ }
+                  if$
+                  t "others" =
+                    {
+                      " {et~al.}" *
+                    }
+                    { " \& " * t * }
+                  if$
                 }
-                { " \& " * t * }
               if$
             }
+            't
           if$
+          nameptr #1 + 'nameptr :=
+          namesleft #1 - 'namesleft :=
         }
-        't
-      if$
-      nameptr #1 + 'nameptr :=
-      namesleft #1 - 'namesleft :=
-    }
-  while$
+      while$
+    *
 }
 if$
 } 
