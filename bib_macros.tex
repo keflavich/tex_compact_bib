@@ -1,0 +1,10 @@
+
+\citestyle{aa}  % (Author YYYY) references instead of (Author, YYYY)
+\bibliographystyle{apj_w_etal_3auth}
+
+\usepackage{paralist}
+
+\renewenvironment{thebibliography}[1]{%
+  \section*{\refname}%
+  \let\par\relax\let\newblock\relax%
+  \inparaitem[{[}1{]}]}{\endinparaitem}
