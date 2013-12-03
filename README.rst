@@ -11,6 +11,8 @@ instead of::
    Foo et al 1920 
    Bar et al 1888
 
+.. image:: example.png
+
 Instructions
 ------------
 
