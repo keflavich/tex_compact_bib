@@ -400,7 +400,7 @@ FUNCTION {format.names}
   numnames #3 >
     { s #1 "\textbullet {vv~}{ll}{, jj}{, f.}" format.name$ " {et~al.}" * }
     { { namesleft #0 > }
-      { s nameptr "{vv~}{ll}{, jj}{, f.}" format.name$
+      { s nameptr "\textbullet {vv~}{ll}{, jj}{, f.}" format.name$
       't :=
         nameptr #1 >
           { namesleft #1 >
