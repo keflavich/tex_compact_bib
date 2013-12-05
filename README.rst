@@ -38,3 +38,9 @@ And especially crucial for understanding the borderline-insane RPN choice in bst
 
 
 .. _bib_macros.tex: bib_macros.tex
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/keflavich/tex_compact_bib/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
