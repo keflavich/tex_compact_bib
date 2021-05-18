@@ -31,6 +31,7 @@ REFERENCES
 
  * https://tex.stackexchange.com/questions/5571/reduce-bibliography-to-one-line
  * http://www.ctex.org/documents/packages/table/paralist.pdf
+ * https://tex.stackexchange.com/questions/11903/reduce-natbib-bibliography-to-one-line
 
 And especially crucial for understanding the borderline-insane RPN choice in bst:
 
