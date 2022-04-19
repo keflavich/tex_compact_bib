@@ -9,3 +9,9 @@
   \textsc{\textbf{References:}}
   \let\par\relax\let\newblock\relax%
   \inparaitem[{[}1{]}]}{\endinparaitem}
+
+% https://tex.stackexchange.com/a/419030/8546
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@lbibitem}{\item[\hfil\NAT@anchor{#2}{\NAT@num}]}{\item[\NAT@anchor{#2}{\NAT@num}]}{}{}
+\makeatother
