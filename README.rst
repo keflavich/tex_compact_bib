@@ -1,6 +1,8 @@
 Making a REALLY compact bibliography
 ====================================
 
+See [lmytime's branch](https://github.com/lmytime/tex_compact_bib) for a more sophisticated version.
+
 Tool for making an ApJ-style bibliography (e.g. using natbib so you can use \citep) in a really compact form, e.g.::
 
    Blah et al 2010 * Foo et al 1920 * Bar et al 1888
