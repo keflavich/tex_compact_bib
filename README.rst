@@ -1,7 +1,7 @@
 Making a REALLY compact bibliography
 ====================================
 
-See `lmytime's branch <https://github.com/lmytime/tex_compact_bib)>`__ for a more sophisticated version.
+See `lmytime's branch <https://github.com/lmytime/tex_compact_bib>`__ for a more sophisticated version.
 
 Tool for making an ApJ-style bibliography (e.g. using natbib so you can use \citep) in a really compact form, e.g.::
 
